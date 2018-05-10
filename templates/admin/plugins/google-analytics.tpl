@@ -18,6 +18,10 @@
 			<label for="id">Tracking ID</label>
 			<input type="text" class="form-control" id="id" name="id" placeholder="UA-XXXXXXXX-X" />
 		</div>
+		<div class="form-group">
+			<label for="id">Optimize ID (google optimize)</label>
+			<input type="text" class="form-control" id="oid" name="oid" placeholder="GTM-XXXXXXX" />
+		</div>
 		<div class="checkbox">
 			<label id="displayFeatures">
 				<input type="checkbox" name="displayFeatures" id="displayFeatures" /> Enable Display Advertising Features (<a href="https://support.google.com/analytics/answer/3450482?hl=en">More Information</a>)
